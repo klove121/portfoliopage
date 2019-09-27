@@ -1,12 +1,22 @@
 header{
-    border-style: solid; 
-    border-width:2px;
-    padding: 10px;
-    margin: 24px;
+    background-image: url(basket-coffee-coffee-mug-2967810.jpg);
+    background-size: cover;
+    margin: -10px;
+    margin-bottom: 10px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+
+
+    
+}
+
+body{
+    background-image: url(images.whitelines.jpg);
+    background-size: cover;
 }
 
 h1{
-    color: lightcoral;
+    color: rgb(44, 44, 114);
     font-family: fantasy;
     text-align: center;
     font-size: 108px;
@@ -16,17 +26,33 @@ h1{
 }
 
 h2{
+    color: white;
     font-family: cursive;
     text-align: center;
     font-size: 45px;
     font-weight:100;
     letter-spacing: 10px;
     margin-top: 0px;
+    padding-bottom: 25px;
+
+}
+.aboutme {
+    text-align: center
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    display: inline-block;
 
 }
 
-.article{
-    width:30%;
+div {
+    text-align: center;
+}
+article{
+    width:22%;
+    margin: 10px;
+    padding: 10px;
+
     
 }
 
@@ -34,7 +60,7 @@ h3 {
     font-family: fantasy;
     border-bottom: solid;
     border-bottom-style: solid;
-    border-bottom-color: lightcoral;
+    border-bottom-color: rgb(44, 44, 114);
     border-bottom-width: 2px;
     
 }
@@ -42,6 +68,7 @@ h3 {
 .article-container {
     display: flex;
     justify-content: space-evenly;
+
     
 
 }
